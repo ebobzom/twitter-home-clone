@@ -1,0 +1,367 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+h3{
+    border-bottom: 1px solid rgb(208, 219, 224);
+    padding: 4px;
+}
+
+.content li:hover{
+    background-color:  rgb(236, 242, 245);
+    border-radius: 18px;
+}
+
+#cancel-hover:hover{
+    background-color: white;
+}
+
+.first-span{
+    margin: 2px;
+    padding: 10px;
+}
+
+.left-side-bar{
+    position: fixed;
+    width: 22%;
+    height: 98vh;
+    background-color: white;
+    float: left;
+    border-right: 1px solid grey;
+}
+
+.main-thread{
+    position: absolute;
+    left: 22%;
+    width: 48%;
+    height: 120vh;
+    float: left;
+}
+
+.main-thread-header{
+    position: fixed;
+    left: 22%;
+    top: 0px;
+    width: 48%;
+    border: 1px solid #b8ccd8;
+    margin: 0;
+    padding: 6px;
+    padding-top: 0;
+    background: white;
+}
+
+.main-thread-header + p{
+    padding-top: 65px;
+    background: white;
+    width: 98%;
+}
+
+.right-side-bar{
+    width: 30%;
+    height: 120vh;
+    float: right;
+    border-left: 1px solid grey;
+}
+
+.logo{
+    width: 52px;
+    margin-top: 10px;
+}
+
+.content{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.content li{
+    list-style-type: none;
+}
+
+input[placeholder="Whats happenning?"]::placeholder{
+    font-size: 20px;
+}
+
+input[placeholder="Whats happenning?"]:focus{
+    border: none;
+    font-size: 20px;
+    outline-style: none;
+}
+
+.user-img{
+    width: 52px;
+    height: 52px;
+    margin-right: 4px;
+    background-color: white;
+    border: 1px solid rgba(121, 106, 106, 0.89);
+    border-radius: 50%;
+}
+
+p{
+    padding: 4px;
+    width: 100%;
+}
+hr{
+    color: #d3e9f8;
+}
+
+p, h2{
+    margin: 5px;
+}
+
+h2 span{
+    margin-right: 50px;
+}
+
+p .user-img, .thrends img{
+    height: 48px;
+    vertical-align: middle;
+}
+
+.thrends img{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+p input{
+    vertical-align: middle;
+    height: 52px;
+    border: none;
+    width: 60%;
+    margin-left: 2px;
+}
+
+.reactions{
+    height: 22px;
+    font-size: 22px;
+    margin-right: 5px;
+    margin-left: 4px;
+}
+
+
+.all-icons{
+    font-size: 30px;
+    width: 52px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.sidebar-nav{
+    vertical-align: middle;
+    font-weight: bolder;
+    margin-left: 4px;
+}
+
+.tweet{
+    width: 80%;
+    height: 52px;
+    border-radius: 24px;
+    background-color: #1da1f2;
+    margin-left: 2px;
+    border-style: none;
+    margin-top: 10px;
+}
+
+.main-thread-content{
+    width: 100%;
+    margin: 0 auto;
+    height: 98vh;
+}
+
+.icons{
+    width: 60%;
+    display: inline-block;
+    margin-left: 55px;
+}
+
+.home{
+    display: inline-block;
+    margin-left: 70%;
+    color: #1da1f2;
+}
+
+.search{
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 46px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background: rgb(236, 242, 245)
+}
+
+.search input, .fa-search{
+    display: inline-block;
+    vertical-align: middle;
+    height: 22px;
+    padding: 5px;
+    border: none;
+}
+
+.search input{
+    width: 80%;
+    margin-left: 4px;
+    margin-top: 6px;
+    background: rgb(236, 242, 245);
+}
+
+.fa-search{
+    font-size: 26px;
+    color: grey;
+}
+
+.thrends{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid rgb(236, 242, 245);
+    border-radius: 20px;
+    font-size: small;
+    padding: 4px;
+    background-color: rgb(236, 242, 245);
+}
+
+#para{
+    border-bottom: 1px solid #b8ccd8;
+}
+.thrends span{
+    display: inline-block;
+    margin-right: 55%;
+}
+
+#trends{
+    margin-right: 61%;
+}
+
+.fa-cog{
+    color: #1da1f2;
+}
+
+.ad{
+    font-size: large;
+    font-weight: bold;
+}
+
+.show-more{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.follow{
+    width: 80%;
+    display: flex;
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(203, 221, 230);
+}
+
+.thrends-head{
+    font-weight: 800;
+    font-size: large;
+    color: black;
+}
+
+.follow > img{
+    width: 28px;
+    margin-right: 4px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.follow > span{
+    width: 70%;
+    font-weight: 500;
+    margin: 4px;
+    color: black;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.at{
+    color: grey;
+}
+
+.follow > button{
+    width: 40%;
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    border-radius: 25px;
+    margin-left: 15px;
+    height: 28px;
+    vertical-align: middle;
+    background-color: rgb(236, 242, 245);
+}
+
+.copy{
+    width: 80%;
+    padding: 4px;
+}
+
+.copy-right-background{
+    background-color: white;
+    border: transparent;
+}
+
+.copy li{
+    display: inline-block;
+    background: transparent;
+    padding: 2px;
+    margin-right: 8px;
+}
+
+.fa-circle{
+    font-size: 22px;
+    border-right: 1px solid grey;
+    padding-right: 6px;
+    color: grey;
+}
+
+.fa-plus-circle{
+    font-size: 24px;
+    color: #1da1f2;
+}
+
+.fa-plus-circle + button{
+    background-color: #1da1f2;
+    font-weight: 500;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+    border: none;
+}
+
+.tweets{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+
+.retweet{
+    width: 95%;
+    display: inline-block;
+    color: grey;
+    height: 26px;
+}
+
+.retweet > i{
+    margin-right: 120px;
+    padding: 10px 0;
+}
+
+.name{
+    font-weight: 800;
+}
